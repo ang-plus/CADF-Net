@@ -70,21 +70,5 @@ python train.py -v "CDSNet_X4_DIV2K" -p train --train_yaml "train_CDSNet_X4_DIV2
 
 ![result](./doc/imgs/result.png)
 
-## Related Projects
-
-## License
-
-This project is released under the Apache 2.0 license.
-
-## To cite our paper
-
-If this work helps your research, please cite the following paper:
-
-```
-@inproceedings{cdsnet,
-  title      = {Cross-Domain Self-allocation Attention Network},
-  author     = {Wang, Hang and Chen, Xuanhong and Ni, Bingbing and Liu, Yutian and Liu jinfan},
-  booktitle  = {Conference on Computer Vision and Pattern Recognition},
-  year       = {2023}
-}
-```
+## note
+This code is an improvement based on existing research. The code is still being organized and will be continuously updated.
