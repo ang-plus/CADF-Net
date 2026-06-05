@@ -1,4 +1,4 @@
-# Cross-Domain Self-allocation Attention Network (CDSNet)
+# CADF-Net:Efficient Image Super-Resolution Network Based on Correlation Spatial Attention and Dynamic Fusion
 
 **The official repository with Pytorch**
 
