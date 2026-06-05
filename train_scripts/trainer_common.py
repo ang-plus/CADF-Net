@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding:utf-8 -*-
-#############################################################
-# File: trainer_common.py
-# Created Date: Friday December 25th 2020
-# Author: Chen Xuanhong
-# Email: chenxuanhongzju@outlook.com
-# Last Modified:  Wednesday, 19th April 2023 10:51:24 pm
-# Modified By: Chen Xuanhong
-# Copyright (c) 2020 Shanghai Jiao Tong University
-#############################################################
-
 
 import os
 import time
