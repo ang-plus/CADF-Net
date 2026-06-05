@@ -8,7 +8,7 @@
 
 ```bash
 git clone git@github.com:ang-plus/CADF-Net.git
-cd CDSNet
+cd CADF-Net
 ```
 
 **Dependencies:**
