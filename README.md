@@ -63,9 +63,13 @@ python train.py -v "CDSNet_X4_DIV2K" -p train --train_yaml "train_CDSNet_X4_DIV2
 
 ## Visualization
 
-![performance](./doc/imgs/对比Donku1.tif)
+![对比1](./doc/imgs/对比1pp.png)
+![对比2](./doc/imgs/对比2pp.png)
 
 ## Results
+
+![result](./doc/imgs/result.png)
+[result.tex](https://github.com/Francis0625/CDSNet/blob/main/result.tex) is the corresponding tex code for result comparison.
 
 ## Related Projects
 
