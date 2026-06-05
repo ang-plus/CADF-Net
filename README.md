@@ -69,7 +69,6 @@ python train.py -v "CDSNet_X4_DIV2K" -p train --train_yaml "train_CDSNet_X4_DIV2
 ## Results
 
 ![result](./doc/imgs/result.png)
-[result.tex](https://github.com/Francis0625/CDSNet/blob/main/result.tex) is the corresponding tex code for result comparison.
 
 ## Related Projects
 
