@@ -63,7 +63,7 @@ python train.py -v "CDSNet_X4_DIV2K" -p train --train_yaml "train_CDSNet_X4_DIV2
 
 ## Visualization
 
-![performance](./doc/imgs/对比Donku1.tif 对比Sonki.tif)
+![performance](./doc/imgs/对比Donku1.tif)
 
 ## Results
 
