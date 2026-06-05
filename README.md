@@ -42,7 +42,7 @@ python test.py -v "CDSNet_X4_DF2K" -s 1000 -t tester_Matlab --test_dataset_name 
 
 - Step1, please download training dataset from [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/) (`Train Data Track 1 bicubic downscaling x? (LR images)` and `Train Data (HR images)`), then set the dataset root path in `./env/env.json: Line 8: "DIV2K":"TO YOUR DIV2K ROOT PATH"`
 
-- Step2, please download benchmark ([baidu cloud](https://pan.baidu.com/s/1HsMtfjEzj4cztaF2sbnOMg) (passwd: sjtu) , [Google driver](https://drive.google.com/file/d/1w-brbpprWHyT4tzCe_MoB2tqEcSOc5OW/view?usp=sharing)), and copy them to `./benchmark/`. If you want to generate the benchmark by yourself, please refer to the official repository of [RCAN](https://github.com/yulunzhang/RCAN).
+- Step2, please download benchmark , and copy them to `./benchmark/`. If you want to generate the benchmark by yourself, please refer to the official repository of [RCAN](https://github.com/yulunzhang/RCAN).
 
 - Step3, training with DIV2K $\times 4$ dataset:
 
