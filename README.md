@@ -59,5 +59,5 @@ python train.py -v "CDSNet_X4_DIV2K" -p train --train_yaml "train_CDSNet_X4_DIV2
 
 ![result](./doc/imgs/result.png)
 
-## note
+## Note
 This code is an improvement based on existing research. Some module names in the code may differ from the paper, so please refer to the paper as the primary source.The code is still being organized and will be continuously updated.
