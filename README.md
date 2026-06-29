@@ -1,4 +1,4 @@
-# CADF-Net:Efficient Image Super-Resolution Network Based on Correlation Spatial Attention and Dynamic Fusion
+# CADF-Net:Efficient Image Super-Resolution Network Based on Correlated Spatial Attention and Dynamic Fusion
 
 **The official repository with Pytorch**
 
