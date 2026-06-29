@@ -52,8 +52,8 @@ python train.py -v "CADF_X4_DIV2K" -p train --train_yaml "train_CDSNet_X4_DIV2K.
 
 ## Visualization
 
-![对比1](./doc/imgs/对比1pp.png)
-![对比2](./doc/imgs/对比2pp.png)
+![对比1](./doc/imgs/compare20.png)
+![对比2](./doc/imgs/compare21.png)
 
 ## Results
 
