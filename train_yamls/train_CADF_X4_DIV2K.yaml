@@ -1,7 +1,7 @@
 # Related scripts
 train_script_name: common
-module_script_name: CDSNet
-class_name: CDSNet
+module_script_name: CADF
+class_name: CADF
 # Model Configuration
 feature_num: 64
 # feature_num: 72
@@ -64,4 +64,4 @@ sample_step: 200
 model_save_epoch: 1
 use_tensorboard: True
 checkpoint_names:
-  generator_name: CDSNet
+  generator_name: CADF
