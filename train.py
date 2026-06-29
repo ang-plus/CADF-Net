@@ -19,7 +19,7 @@ def getParameters():
     
     parser = argparse.ArgumentParser()
     # general settings
-    parser.add_argument('-v', '--version', type=str, default='CDSNet',
+    parser.add_argument('-v', '--version', type=str, default='CADF',
                                             help="version name for train, finetune")
 
     parser.add_argument('-p', '--phase', type=str, default="train",
@@ -37,9 +37,9 @@ def getParameters():
 
     # training
     parser.add_argument('--experiment_description', type=str,
-                                default="traing CDSNet")
+                                default="traing CADF")
 
-    parser.add_argument('--train_yaml', type=str, default="train_CDSNet_X4_DIV2K.yaml")
+    parser.add_argument('--train_yaml', type=str, default="train_CADF_X4_DIV2K.yaml")
     # system logger
     parser.add_argument('--logger', type=str,
                   default="tensorboard", choices=['tensorboard', 'wandb','none'], help='system logger')
