@@ -28,15 +28,15 @@ cd CADF-Net
 
 ## Evaluate Pretrained Models
 
-### Example: evaluate the model trained with DF2K@X4:
+### Example: evaluate the model trained with DIV2K@X4:
 
 - Step 1, the following cmd will report a performance evaluated with python script, and generated images are placed in `./SR`
 
 ```
-python test.py -v "CDSNet_X4_DF2K" -s 1000 -t tester_Matlab --test_dataset_name "Urban100"
+python test.py -v "CADFt_X4_DIV2K" -s 1000 -t tester_Matlab --test_dataset_name "Urban100"
 ```
 
-- Step2, please execute the `Evaluate_PSNR_SSIM.m` script in the root directory to obtain the results reported in the paper. Please modify `Line 8 (Evaluate_PSNR_SSIM.m): methods = {'CDSNet_X4_DF2K'};` and `Line 10 (Evaluate_PSNR_SSIM.m): dataset = {'Urban100'};` to match the model/dataset name evaluated above.
+- Step2, please execute the `Evaluate_PSNR_SSIM.m` script in the root directory to obtain the results reported in the paper. Please modify `Line 8 (Evaluate_PSNR_SSIM.m): methods = {'CADF_X4_DF2K'};` and `Line 10 (Evaluate_PSNR_SSIM.m): dataset = {'Urban100'};` to match the model/dataset name evaluated above.
 
 ## Training
 
@@ -47,7 +47,7 @@ python test.py -v "CDSNet_X4_DF2K" -s 1000 -t tester_Matlab --test_dataset_name 
 - Step3, training with DIV2K $\times 4$ dataset:
 
 ```
-python train.py -v "CDSNet_X4_DIV2K" -p train --train_yaml "train_CDSNet_X4_DIV2K.yaml"
+python train.py -v "CADF_X4_DIV2K" -p train --train_yaml "train_CDSNet_X4_DIV2K.yaml"
 ```
 
 ## Visualization
