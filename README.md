@@ -47,7 +47,7 @@ python test.py -v "CADF_X4_DIV2K" -s 1000 -t tester_Matlab --test_dataset_name "
 - Step3, training with DIV2K $\times 4$ dataset:
 
 ```
-python train.py -v "CADF_X4_DIV2K" -p train --train_yaml "train_CDSNet_X4_DIV2K.yaml"
+python train.py -v "CADF_X4_DIV2K" -p train --train_yaml "train_CADF_X4_DIV2K.yaml"
 ```
 
 ## Visualization
