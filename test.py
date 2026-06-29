@@ -19,7 +19,7 @@ def getParameters():
     
     parser = argparse.ArgumentParser()
     # general settings
-    parser.add_argument('-v', '--version', type=str, default='CDSNet_X2_DF2K',
+    parser.add_argument('-v', '--version', type=str, default='CADF_X2_DIV2K',
                                             help="version name for train, test, finetune")
 
     parser.add_argument('-c', '--cuda', type=int, default=0) # >0 if it is set as -1, program will use CPU
