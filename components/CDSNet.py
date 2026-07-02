@@ -1,4 +1,3 @@
-
 import  torch
 import  torch.nn as nn
 from    ops.CDSGroups import CDSGroups
@@ -6,9 +5,9 @@ from    ops.pixelshuffle import pixelshuffle_block
 import  torch.nn.functional as F
 
         
-class CDSNet(nn.Module):  # Cross-Domain Self-allocation Attention Network
+class CADFNet(nn.Module):  # Cross-Domain Self-allocation Attention Network (renamed from CDSNet)
     def __init__(self,num_in_ch=3,num_out_ch=3,num_feat=64,**kwargs):
-        super(CDSNet, self).__init__()
+        super(CADFNet, self).__init__()
         res_num     = kwargs["res_num"]
         up_scale    = kwargs["upsampling"]
         bias        = kwargs["bias"]
