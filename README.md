@@ -55,9 +55,5 @@ python train.py -v "CADF_X4_DIV2K" -p train --train_yaml "train_CADF_X4_DIV2K.ya
 ![对比1](./doc/imgs/compare20.png)
 ![对比2](./doc/imgs/compare21.png)
 
-## Results
-
-![result](./doc/imgs/result.png)
-
 ## Note
 The code is still being organized and will be continuously updated.
